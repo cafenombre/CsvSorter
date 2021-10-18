@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CsvSorter": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\tglotin\\source\\repos\\CsvSorter\\CsvSorter\\"
+    }
+  }
+}
