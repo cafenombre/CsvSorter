@@ -9,3 +9,15 @@ C:\Users\tglotin\source\repos\CsvSorter\CsvSorter\obj\Debug\netcoreapp2.1\CsvSor
 C:\Users\tglotin\source\repos\CsvSorter\CsvSorter\obj\Debug\netcoreapp2.1\CsvSorter.AssemblyInfo.cs
 C:\Users\tglotin\source\repos\CsvSorter\CsvSorter\obj\Debug\netcoreapp2.1\CsvSorter.dll
 C:\Users\tglotin\source\repos\CsvSorter\CsvSorter\obj\Debug\netcoreapp2.1\CsvSorter.pdb
+E:\Things\source\repos\CsvSorter\bin\Debug\netcoreapp2.1\CsvSorter.deps.json
+E:\Things\source\repos\CsvSorter\bin\Debug\netcoreapp2.1\CsvSorter.runtimeconfig.json
+E:\Things\source\repos\CsvSorter\bin\Debug\netcoreapp2.1\CsvSorter.runtimeconfig.dev.json
+E:\Things\source\repos\CsvSorter\bin\Debug\netcoreapp2.1\CsvSorter.dll
+E:\Things\source\repos\CsvSorter\bin\Debug\netcoreapp2.1\CsvSorter.pdb
+E:\Things\source\repos\CsvSorter\obj\Debug\netcoreapp2.1\CsvSorter.csproj.AssemblyReference.cache
+E:\Things\source\repos\CsvSorter\obj\Debug\netcoreapp2.1\CsvSorter.AssemblyInfoInputs.cache
+E:\Things\source\repos\CsvSorter\obj\Debug\netcoreapp2.1\CsvSorter.AssemblyInfo.cs
+E:\Things\source\repos\CsvSorter\obj\Debug\netcoreapp2.1\CsvSorter.csproj.CoreCompileInputs.cache
+E:\Things\source\repos\CsvSorter\obj\Debug\netcoreapp2.1\CsvSorter.dll
+E:\Things\source\repos\CsvSorter\obj\Debug\netcoreapp2.1\CsvSorter.pdb
+E:\Things\source\repos\CsvSorter\obj\Debug\netcoreapp2.1\CsvSorter.genruntimeconfig.cache

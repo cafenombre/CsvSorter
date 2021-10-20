@@ -2,7 +2,7 @@
   "profiles": {
     "CsvSorter": {
       "commandName": "Project",
-      "workingDirectory": "C:\\Users\\tglotin\\source\\repos\\CsvSorter\\CsvSorter\\"
+      "workingDirectory": "E:\\Things\\source\\repos\\CsvSorter"
     }
   }
 }
