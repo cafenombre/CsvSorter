@@ -10,7 +10,6 @@ namespace CsvSorter
     {
         static void Main(string[] args)
         {
-            //Encoding.GetEncoding("iso-8859-1");
             //List all Csv files in the input/ directory
             List<string> allCsv = Directory.EnumerateFiles("input/", "*.csv", SearchOption.AllDirectories).ToList();
 
@@ -18,12 +17,15 @@ namespace CsvSorter
             /*SelectedHeaders.Add("Key");
             SelectedHeaders.Add("Title");*/
 
-            List<int> SelectedIndexes = new List<int>();// new int[] { 1, 3, 4 });//, 5, 11, 17, 19, 20, 27, 28, 39, 42, 44, 45, 61 });
+            List<int> SelectedIndexes = new List<int>(new int[] {0, 2, 3, 4, 10, 16, 18, 19, 26, 27, 38, 41, 43, 44, 60 });
 
             //Headers informations
             string[] header = { File.ReadLines(allCsv.First()).First(l => !string.IsNullOrWhiteSpace(l)) };
-            string filetered = header.FirstOrDefault().Replace("\"", "ZBOUB");
-            string[] headers = filetered.Split("ZBOUB,ZBOUB");
+            string[] headers = header.FirstOrDefault().Split("\",\"");
+
+            //Remove first "
+            headers[0] = headers[0].Remove(0, 1);
+
 
             int i = 0;
             foreach(string h in headers)
@@ -56,12 +58,14 @@ namespace CsvSorter
 
             foreach (string line in sortedDatas)
             {
-                string filterino = line.Replace("\"", "ZBOUB");
-                string[] splitData = filterino.Split("ZBOUB,ZBOUB");
+                //remove the first " before the split
+                string lineS = line.Remove(0, 1);
+
+                string[] splitData = lineS.Split("\",\"");
                 string sortedLine = "";
                 foreach(int index in SelectedIndexes)
                 {
-                    sortedLine += splitData[index] + ",";
+                    sortedLine += "\""+ splitData[index] + "\",";
                 }
                 finalTable.Add(sortedLine.Remove(sortedLine.Length - 1));
             }
